@@ -1,0 +1,130 @@
+:root {
+  --primary-color: #2c4f85;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --background-navbar-color: #073473b3;
+  --background-navbar: #074140b3;
+}
+
+body {
+  margin: 60px auto;
+  max-width: 800px;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: -13px;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+p {
+  padding: 20px 20px 10px 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 0;
+}
+.navbar {
+  background-color: var(--background-navbar-color);
+  margin-bottom: 15px;
+}
+.btn {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin-left: 16px;
+}
+.btn:hover {
+  background-color: var(--primary-color);
+  color: black;
+}
+.name {
+  padding-top: 95px;
+}
+.about {
+  padding-top: 70px;
+}
+.navigation-links {
+  display: flex;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.contact-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.about-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+  padding-top: 90px;
+}
+
+.about-paragraphs {
+  display: flex;
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+.img-fluid {
+  box-shadow: var(--box-shadow);
+}
+
+.ballet-description,
+.weather-description,
+.rio-description {
+  text-align: left;
+}
+.col-sm-4 {
+  transition: all 200ms ease;
+  opacity: 1;
+}
+.col-sm-4:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
