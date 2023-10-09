@@ -71,6 +71,15 @@ p {
   text-decoration: none;
   text-transform: capitalize;
 }
+.contact-link {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin-left: 16px;
+}
+.contact-link:hover {
+  background-color: var(--primary-color);
+  color: black;
+}
 
 .contact-link {
   background: var(--primary-color);
