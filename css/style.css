@@ -120,10 +120,6 @@ p {
   text-decoration: underline;
 }
 
-.img-fluid {
-  box-shadow: var(--box-shadow);
-}
-
 .ballet-description,
 .weather-description,
 .rio-description {
@@ -136,4 +132,15 @@ p {
 .col-sm-4:hover {
   cursor: pointer;
   opacity: 0.7;
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 33px;
+    text-align: center;
+  }
 }
