@@ -144,3 +144,7 @@ p {
     text-align: center;
   }
 }
+.img-height {
+  height: 100%;
+  object-fit: cover;
+}
